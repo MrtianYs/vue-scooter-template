@@ -4,7 +4,9 @@
   "description": "vue-scooter-template for vue-scooter-cli",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm run dev",
+    "dev": "vue-scooter dev",
+    "bulid": "vue-scooter build"
   },
   "repository": {
     "type": "git",
@@ -20,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/MrtianYs/vue-scooter-template/issues"
   },
-  "homepage": "https://github.com/MrtianYs/vue-scooter-template#readme"
+  "homepage": "https://github.com/MrtianYs/vue-scooter-template#readme",
+  "devDependencies": {
+    "vue-scooter-cli": "0.0.1"
+  }
 }
