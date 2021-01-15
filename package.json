@@ -6,7 +6,7 @@
   "scripts": {
     "start": "npm run dev",
     "dev": "vue-scooter dev",
-    "bulid": "vue-scooter build"
+    "build": "vue-scooter build"
   },
   "repository": {
     "type": "git",
